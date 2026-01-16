@@ -79,7 +79,7 @@ const projects = [
     slug: "snoopy-flashcards",
     title: "Snoopy-Themed Study & Flashcards Website",
     description: "Cozy study web app that generates flashcards and quizzes from notes; animated UI with a playful theme.",
-    stack: ["React", "Tailwind", "Node (optional)", "LocalStorage/DB"],
+    stack: ["React", "Tailwind", "Node", "LocalStorage/DB"],
     image: "/assets/projects/snoopy-flashcards/cover.jpg",
     gif: "/assets/projects/snoopy-flashcards/demo.gif",
     links: {
