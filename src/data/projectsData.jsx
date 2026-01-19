@@ -1,4 +1,6 @@
 import solarCover from "../assets/projects/solar.jpg";
+import siteCover from "../assets/projects/thissite.png";
+import textCover from "../assets/projects/3dtext.png";
 
 
 const projects = [
@@ -31,7 +33,7 @@ const projects = [
     title: "This Portfolio (v2)",
     description: "Minimal, intentional redesign with motion hygiene and responsive components.",
     stack: ["React", "Tailwind", "Framer Motion"],
-    image: "/assets/projects/portfolio-2025/cover.jpg",
+    image: "siteCover",
     gif: null,
     links: {
       live: "https://gloriabuilds.tech",
@@ -46,7 +48,7 @@ const projects = [
   title: "Interactive 3D Name Scene (Three.js)",
   description: "A real-time interactive 3D name visualization built using Three.js, featuring dynamic lighting, camera controls, and custom animations.",
   stack: ["Three.js", "WebGL", "JavaScript"],
-  image: "/assets/projects/3d-name/cover.jpg",
+  image: "textCover",
   gif: "/assets/projects/3d-name/demo.gif",
   links: {
     live: "https://3d-name-two.vercel.app/",
