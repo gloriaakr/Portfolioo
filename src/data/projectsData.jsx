@@ -1,20 +1,27 @@
 const projects = [
   {
-    slug: "esp32-assistant",
-    title: "Sassy ESP32 Accountability Assistant",
-    description: "Physical AI buddy with OLED, keypad, ultrasonic sensor — snarky prompts, streaks, and voice control in progress.",
-    stack: ["ESP32", "C++/Arduino", "OLED", "Keypad", "Ultrasonic"],
-    image: "/assets/projects/esp32-assistant/cover.jpg",
-    gif: "/assets/projects/esp32-assistant/demo.gif",
-    links: {
-      live: null,
-      source: "https://github.com/<your-username>/esp32-assistant",
-      case: "/projects/esp32-assistant",
-    },
-    year: "2025",
-    highlight: true,
-    tags: ["hardware", "ai"] // Added tags
+  slug: "sun-tracking-solar-garden-light",
+  title: "Sun-Tracking Solar Garden Light (Fusion 360)",
+  description: "Concept and CAD design of a solar-powered garden light using LDR-based sun tracking, servo-driven rotation, and modular components to maximize energy capture and durability.",
+  stack: [
+    "Fusion 360",
+    "CAD Design",
+    "Solar Energy",
+    "LDR Sensors",
+    "Servo Motor",
+    "Product Design"
+  ],
+  image: "/assets/projects/solar-garden-light/cover.jpg",
+  gif: null,
+  links: {
+    live: null,
+    source: null,
+    case: "/projects/sun-tracking-solar-garden-light",
   },
+  year: "2025",
+  highlight: true,
+  tags: ["hardware", "cad", "sustainability"]
+},
   {
     slug: "portfolio-2025",
     title: "This Portfolio (v2)",
@@ -31,35 +38,22 @@ const projects = [
     tags: ["software", "design"] // Added tags
   },
   {
-    slug: "pi5-project",
-    title: "Raspberry Pi 5 — Tiny Web Computer",
-    description: "From bare Pi to a mini desktop that browses, plays media, and runs local services.",
-    stack: ["Raspberry Pi 5", "Linux", "GPIO"],
-    image: "/assets/projects/pi5-project/cover.jpg",
-    gif: null,
-    links: {
-      live: null,
-      source: "https://github.com/<your-username>/pi5-desktop",
-      case: "/projects/pi5-project",
-    },
-    year: "2025",
-    tags: ["hardware", "software"] // Added tags
+  slug: "interactive-3d-name-scene",
+  title: "Interactive 3D Name Scene (Three.js)",
+  description: "A real-time interactive 3D name visualization built using Three.js, featuring dynamic lighting, camera controls, and custom animations.",
+  stack: ["Three.js", "WebGL", "JavaScript"],
+  image: "/assets/projects/3d-name/cover.jpg",
+  gif: "/assets/projects/3d-name/demo.gif",
+  links: {
+    live: "https://3d-name-two.vercel.app/",
+    source: "https://github.com/<your-username>/3d-name",
+    case: "/projects/interactive-3d-name-scene",
   },
-  {
-    slug: "web-to-device",
-    title: "Web ↔ Device Experiments",
-    description: "Bridging browser UIs with microcontrollers for fun (and occasionally useful) gadgets.",
-    stack: ["Web Serial", "Web Bluetooth", "JavaScript"],
-    image: "/assets/projects/web-to-device/cover.jpg",
-    gif: null,
-    links: {
-      live: null,
-      source: "https://github.com/<your-username>/web-device-lab",
-      case: "/projects/web-to-device",
-    },
-    year: "2024–2025",
-    tags: ["hardware", "software"] // Added tags
-  },
+  year: "2025",
+  highlight: true,
+  tags: ["three.js", "webgl", "interactive"]
+},
+
   {
     slug: "arduino-mini-car",
     title: "Smart Arduino Mini Car",
