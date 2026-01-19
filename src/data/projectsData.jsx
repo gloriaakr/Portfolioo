@@ -1,3 +1,6 @@
+import solarCover from "../assets/projects/solar-garden-light/cover.jpg";
+
+
 const projects = [
   {
   slug: "sun-tracking-solar-garden-light",
@@ -11,12 +14,13 @@ const projects = [
     "Servo Motor",
     "Product Design"
   ],
-  image: "/assets/projects/solar-garden-light/cover.jpg",
+  image: "solarCover",
   gif: null,
   links: {
     live: null,
     source: null,
     case: "/projects/sun-tracking-solar-garden-light",
+    pdf: "/pdfs/solar.pdf",
   },
   year: "2025",
   highlight: true,
