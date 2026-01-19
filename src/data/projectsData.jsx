@@ -53,7 +53,7 @@ const projects = [
   gif: "/assets/projects/3d-name/demo.gif",
   links: {
     live: "https://3d-name-two.vercel.app/",
-    source: "https://github.com/<your-username>/3d-name",
+    source: "https://github.com/gloriaakr/3d-name",
     case: "/projects/interactive-3d-name-scene",
   },
   year: "2025",
@@ -70,10 +70,11 @@ const projects = [
     gif: "/assets/projects/arduino-mini-car/demo.gif",
     links: {
       live: null,
-      source: "https://github.com/<your-username>/arduino-mini-car",
+      source: "https://github.com/gloriaakr/Arduino-bluetooth-controlled-car",
       case: "/projects/arduino-mini-car",
     },
     year: "2024",
+    highlight: true,
     tags: ["hardware"] // Added tags
   },
   {
