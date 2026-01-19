@@ -1,4 +1,4 @@
-import solarCover from "../assets/projects/solar-garden-light/cover.jpg";
+import solarCover from "../assets/projects/solar.jpg";
 
 
 const projects = [
