@@ -1,6 +1,7 @@
 import solarCover from "../assets/projects/solar.jpg";
 import siteCover from "../assets/projects/thissite.png";
 import textCover from "../assets/projects/3dtext.png";
+import carCover from "../assets/projects/arduino.jpg";
 
 
 const projects = [
@@ -65,7 +66,7 @@ const projects = [
     title: "Smart Arduino Mini Car",
     description: "Two-motor mini rover with ultrasonic obstacle avoidance and basic PID speed control.",
     stack: ["Arduino", "C++", "Ultrasonic", "Motor Driver", "PID (basic)"],
-    image: "/assets/projects/arduino-mini-car/cover.jpg",
+    image: carCover,
     gif: "/assets/projects/arduino-mini-car/demo.gif",
     links: {
       live: null,
