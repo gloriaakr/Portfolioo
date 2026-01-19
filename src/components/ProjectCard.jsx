@@ -86,12 +86,14 @@ export default function ProjectCard({ project }) {
             whileTap={{ scale: 0.95 }}
             className="ml-auto"
           >
-            <Link
-              to={`/projects/${slug}`}
-              className="text-sm px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors flex items-center gap-1"
-            >
-              Details <span className="text-pink-300">→</span>
-            </Link>
+            <motion.a
+  href={links.pdf ? links.pdf : `/projects/${slug}`}
+  target={links.pdf ? "_blank" : undefined}
+  rel={links.pdf ? "noreferrer" : undefined}
+  className="text-sm px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors flex items-center gap-1"
+>
+  Details <span className="text-pink-300">→</span>
+</motion.a>
           </motion.div>
         </div>
       </div>
