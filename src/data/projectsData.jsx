@@ -16,7 +16,7 @@ const projects = [
     "Servo Motor",
     "Product Design"
   ],
-  image: "solarCover",
+  image: solarCover,
   gif: null,
   links: {
     live: null,
@@ -33,7 +33,7 @@ const projects = [
     title: "This Portfolio (v2)",
     description: "Minimal, intentional redesign with motion hygiene and responsive components.",
     stack: ["React", "Tailwind", "Framer Motion"],
-    image: "siteCover",
+    image: siteCover,
     gif: null,
     links: {
       live: "https://gloriabuilds.tech",
@@ -48,7 +48,7 @@ const projects = [
   title: "Interactive 3D Name Scene (Three.js)",
   description: "A real-time interactive 3D name visualization built using Three.js, featuring dynamic lighting, camera controls, and custom animations.",
   stack: ["Three.js", "WebGL", "JavaScript"],
-  image: "textCover",
+  image: textCover,
   gif: "/assets/projects/3d-name/demo.gif",
   links: {
     live: "https://3d-name-two.vercel.app/",
