@@ -31,7 +31,7 @@ const projects = [
     gif: null,
     links: {
       live: "https://gloriabuilds.tech",
-      source: "https://github.com/<your-username>/portfolio-v2",
+      source: "https://github.com/gloriaakr/portfolioo",
       case: "/projects/portfolio-2025",
     },
     year: "2025",
