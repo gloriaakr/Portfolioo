@@ -18,7 +18,7 @@ const projects = [
   image: frog,
   gif: null,
   links: {
-    live: /first-game,
+    live: /First-Game,
     source: null,
     case: "/projects/GodotGame2D",
     source: "https://github.com/gloriaakr/portfolioo",
