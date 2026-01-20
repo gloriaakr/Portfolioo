@@ -20,12 +20,28 @@ const projects = [
   links: {
     live: "https://www.gloriabuilds.tech/first-gamee/index.html",
     source: null,
-    case: "/projects/GodotGame2D",
+    case: null,
     source: "https://github.com/gloriaakr/portfolioo",
   },
   year: "2025",
   highlight: true,
   tags: ["hardware", "cad", "sustainability"]
+},
+      {
+  slug: "interactive-3d-name-scene",
+  title: "Interactive 3D Name Scene (Three.js)",
+  description: "A real-time interactive 3D name visualization built using Three.js, featuring dynamic lighting, camera controls, and custom animations.",
+  stack: ["Three.js", "WebGL", "JavaScript"],
+  image: textCover,
+  gif: "/assets/projects/3d-name/demo.gif",
+  links: {
+    live: "https://3d-name-two.vercel.app/",
+    source: "https://github.com/gloriaakr/3d-name",
+    case: "/projects/interactive-3d-name-scene",
+  },
+  year: "2025",
+  highlight: true,
+  tags: ["three.js", "webgl", "interactive"]
 },
   {
   slug: "sun-tracking-solar-garden-light",
