@@ -2,9 +2,31 @@ import solarCover from "../assets/projects/solar.jpg";
 import siteCover from "../assets/projects/thissite.png";
 import textCover from "../assets/projects/3dtext.png";
 import carCover from "../assets/projects/arduino.jpg";
+import frog from "../assets/projects/frog.jpg";
 
 
 const projects = [
+    {
+  slug: "Godot 2D Game",
+  title: "Ninja Frog (Godot)",
+  description: "A cute 2D game built in Godot.My first 2D Godot",
+  stack: [
+    "Godot",
+    "GDS Script",
+    "Game Dev",
+  ],
+  image: frog,
+  gif: null,
+  links: {
+    live: "/First-Game",
+    source: null,
+    case: "/projects/GodotGame2D",
+    source: "https://github.com/gloriaakr/portfolioo",
+  },
+  year: "2025",
+  highlight: true,
+  tags: ["hardware", "cad", "sustainability"]
+},
   {
   slug: "sun-tracking-solar-garden-light",
   title: "Sun-Tracking Solar Garden Light (Fusion 360)",
