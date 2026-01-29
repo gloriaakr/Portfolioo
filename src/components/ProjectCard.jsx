@@ -87,7 +87,7 @@ export default function ProjectCard({ project }) {
             className="ml-auto"
           >
             <motion.a
-  href={links.pdf ? links.pdf : `/projects/${slug}`}
+  href={links.pdf ? links.pdf : `https://github.com/gloriaakr`}
   target={links.pdf ? "_blank" : undefined}
   rel={links.pdf ? "noreferrer" : undefined}
   className="text-sm px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors flex items-center gap-1"
