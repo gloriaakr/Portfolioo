@@ -50,7 +50,7 @@ function ContactSection() {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          Open to internships, freelance, or collabs. Currently especially interested in IoT/AI projects with social impact.
+          Open to internships, freelance, or collabs. Currently especially interested in Robotics/AI projects with social impact.
         </motion.p>
         
         <ContactButtons />
