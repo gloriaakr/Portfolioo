@@ -45,15 +45,15 @@ export default function About() {
                 className="absolute bottom-0 left-0 h-1 bg-pink-400"
                 style={{ originX: 0 }}
               />
-            </span> — a computer engineer who builds bridges between bits and atoms.
+            </span> — a computer engineer who builds bridges between software and hardware.
           </motion.p>
           
           {/* Interactive skill list */}
           <ul className="space-y-6 pl-2">
             {[
-              { emoji: "⚡", title: "Hardware hacking", desc: "(ESP32s, Raspberry Pi, and a concerning number of unfinished side projects)" },
+              { emoji: "⚡", title: "Hardware hacking", desc: "(ESP32s, Arduinos, Raspberry Pi, and a concerning number of unfinished side projects)" },
               { emoji: "💻", title: "Software design", desc: "(Clean code > clever code, but why not both?)" },
-              { emoji: "🌍", title: "Tech-for-good", desc: "(Exploring ways tech can make everyday life smarter and more accessible.)" }
+              { emoji: "🌍", title: "Tech for good", desc: "(Exploring ways tech can make everyday life smarter and more accessible.)" }
             ].map((item, index) => (
               <motion.li 
                 key={index}
