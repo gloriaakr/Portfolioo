@@ -45,15 +45,15 @@ export default function About() {
                 className="absolute bottom-0 left-0 h-1 bg-pink-400"
                 style={{ originX: 0 }}
               />
-            </span> — a computer engineer who builds bridges between software and hardware.
+            </span> — a computer engineering student, tech enthusiast and hobbyist.
           </motion.p>
           
           {/* Interactive skill list */}
           <ul className="space-y-6 pl-2">
             {[
-              { emoji: "⚡", title: "Hardware hacking", desc: "(ESP32s, Arduinos, Raspberry Pi, and a concerning number of unfinished side projects)" },
-              { emoji: "💻", title: "Software design", desc: "(Clean code > clever code, but why not both?)" },
-              { emoji: "🌍", title: "Tech for good", desc: "(Exploring ways tech can make everyday life smarter and more accessible.)" }
+              { emoji: "⚡", title: "Hardware", desc: "(ESP32s, Arduinos, Raspberry Pi, and a concerning number of unfinished side projects)" },
+              { emoji: "💻", title: "Software Engineering ", desc: "Web interfaces and interactive projects(mostly figuring things out as I go haha) " },
+              { emoji: "🌍", title: "Robotics and Accessibility", desc: "Especially interested in robotics that makes a real difference" }
             ].map((item, index) => (
               <motion.li 
                 key={index}
@@ -104,10 +104,10 @@ export default function About() {
             </motion.p>
             <ul className="space-y-3 pl-6 list-disc text-lg">
               {[
-                "Teaching mysekf Three.js (because 3D is the new 2D)",
+                "Teaching myself Three.js (because 3D is the new 2D)",
                 "Learning CAD design (so I can 3D print my dreams)",
                 "Collecting 'why not?' ideas in a Google Doc that's 90% typos",
-                " Building an intelligent autonomous robot (which may or may not become self-aware and take over the world)"
+                " Building an intelligent autonomous robot (which may or may not become self-aware and take over the world haha)"
               ].map((item, index) => (
                 <motion.li 
                   key={index}
