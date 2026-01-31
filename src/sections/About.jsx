@@ -53,7 +53,7 @@ export default function About() {
             {[
               { emoji: "⚡", title: "Hardware", desc: "(ESP32s, Arduinos, Raspberry Pi, and a concerning number of unfinished side projects)" },
               { emoji: "💻", title: "Software Engineering ", desc: "Web interfaces and interactive projects(mostly figuring things out as I go haha) " },
-              { emoji: "🌍", title: "Robotics and Accessibility", desc: "Especially interested in robotics that makes a real difference" }
+              { emoji: "🌍", title: "Robotics and Accessibility", desc: "Especially interested in robotics that makes a real difference (turns out it's a lot harder than youtube tutorials anbd reddit make it seem..)" }
             ].map((item, index) => (
               <motion.li 
                 key={index}
