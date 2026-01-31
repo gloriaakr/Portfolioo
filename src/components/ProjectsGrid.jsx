@@ -56,7 +56,7 @@ export default function ProjectsGrid() {
             My Creations
           </h2>
           <p className="mt-4 text-zinc-300 max-w-2xl mx-auto text-lg">
-            From polished UIs to hardware that talks back — each project tells a story.
+            From pixels on a screen to hardware that talks back - each of my projects tells a story.
           </p>
 
           {/* Enhanced Filter UI */}
