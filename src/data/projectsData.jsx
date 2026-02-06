@@ -83,7 +83,7 @@ const projects = [
 
   {
     slug: "arduino-mini-car",
-    title: "Smart Arduino Mini Car",
+    title: "Elegoo Smart Arduino Mini Car",
     description: "Two-motor mini rover with ultrasonic obstacle avoidance and basic PID speed control.",
     stack: ["Arduino", "C++", "Ultrasonic", "Motor Driver", "PID (basic)"],
     image: carCover,
