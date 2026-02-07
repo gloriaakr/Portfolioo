@@ -3,9 +3,25 @@ import siteCover from "../assets/projects/thissite.png";
 import textCover from "../assets/projects/3dtext.png";
 import carCover from "../assets/projects/arduino.jpg";
 import frog from "../assets/projects/frog.jpg";
+import houseCover from "../assets/projects/house.png";
 
 
 const projects = [
+          {
+  slug: "Haunted House",
+  title: "3D Haunted House",
+  description: "An interactive 3D haunted house built with Three.js.",
+  stack: ["Three.js", "WebGL", "JavaScript"],
+  image: houseCover,
+  gif: "/assets/projects/3d-name/demo.gif",
+  links: {
+    live: "https://haunted-house-hazel-nu.vercel.app/",
+    source: "https://github.com/gloriaakr/haunted-house",
+  },
+  year: "2025",
+  highlight: true,
+  tags: ["three.js", "webgl", "interactive"]
+},
     {
   slug: "Godot 2D Game",
   title: "Ninja Frog (Godot)",
